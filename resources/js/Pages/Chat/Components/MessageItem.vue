@@ -14,11 +14,10 @@
 </template>
 
 <script>
-import { TimeAgo } from 'vue2-timeago'
 
 export default {
   components: {
-      TimeAgo,
+
   },
   props: ['message'],
 
