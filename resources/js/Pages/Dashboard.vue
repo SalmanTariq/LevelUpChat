@@ -256,7 +256,7 @@
     </div>
   </div>
 
-  
+
 
       </main>
     </div>
@@ -265,17 +265,17 @@
 
 <script>
 import { ref } from 'vue'
-import { 
-  Dialog, 
-  DialogOverlay, 
-  TransitionChild, 
+import {
+  Dialog,
+  DialogOverlay,
+  TransitionChild,
   TransitionRoot,
-  Disclosure, 
-  DisclosureButton, 
-  DisclosurePanel, 
-  Menu, 
-  MenuButton, 
-  MenuItem, 
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel,
+  Menu,
+  MenuButton,
+  MenuItem,
   MenuItems
 } from '@headlessui/vue'
 import {
@@ -373,12 +373,12 @@ export default {
     XIcon,
     HomeIcon,
     BellIcon,
-    Disclosure, 
-    DisclosureButton, 
-    DisclosurePanel, 
-    Menu, 
-    MenuButton, 
-    MenuItem, 
+    Disclosure,
+    DisclosureButton,
+    DisclosurePanel,
+    Menu,
+    MenuButton,
+    MenuItem,
     MenuItems
   },
   methods: {
