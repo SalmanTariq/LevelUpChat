@@ -28,6 +28,7 @@
     "dependencies": {
         "@headlessui/vue": "^1.4.1",
         "@heroicons/vue": "^1.0.4",
+        "date-fns": "^2.23.0",
         "laravel-echo": "^1.11.2",
         "moment": "^2.29.1",
         "pusher-js": "^7.0.3",
