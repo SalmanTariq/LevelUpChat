@@ -41550,7 +41550,6 @@ var navigation = [{
           });
         }).listen('NewChatMessage', function (e) {
           vm.getMessages();
-          console.log('et');
         });
       }
     },
@@ -41695,6 +41694,7 @@ __webpack_require__.r(__webpack_exports__);
   props: ['message'],
   methods: {
     readableDate: function readableDate(date) {
+      console.log(this.$page);
       return new Date(date).toLocaleString();
     }
   }
@@ -46420,8 +46420,8 @@ var _hoisted_7 = {
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     "class": "mt-4 h-8 w-8 rounded-full",
-    src: _ctx.$page.props.user.profile_photo_url,
-    alt: _ctx.$page.props.user.name
+    src: $props.message.user.profile_photo_url,
+    alt: $props.message.user.name
   }, null, 8
   /* PROPS */
   , _hoisted_2), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.message.user.name), 1

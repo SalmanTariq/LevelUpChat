@@ -253,7 +253,6 @@ export default {
                     .leaving(user => (this.users = this.users.filter(({id}) => (id !== user.id))))
                     .listen('NewChatMessage', e => {
                         vm.getMessages();
-                        console.log('et');
                     });
             }
         },

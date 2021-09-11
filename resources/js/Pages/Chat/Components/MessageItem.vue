@@ -1,7 +1,7 @@
 <template>
   <div>
         <div class="flex space-x-3 px-3">
-          <img class="mt-4 h-8 w-8 rounded-full" :src="$page.props.user.profile_photo_url" :alt="$page.props.user.name" />  
+          <img class="mt-4 h-8 w-8 rounded-full" :src="message.user.profile_photo_url" :alt="message.user.name" />
           <div class="flex-1 space-y-1">
             <div class="flex items-center justify-between">
               <h3 class="pt-2 text-sm font-medium">{{ message.user.name }}</h3>
@@ -24,6 +24,7 @@ export default {
 
   methods: {
     readableDate (date) {
+        console.log(this.$page)
       return (new Date(date)).toLocaleString()
     }
   }
